@@ -1,0 +1,120 @@
+{
+	"language": "en",
+	"TimeZone": "Asia/Manila",
+	"ProductKey": "9Q== 31OP yRCE oKJm nEry NwYm kDwe 65Gj deO/ dPhw dKEg /W/e RGx+ akBi Pu0v h6la qWb2 WLQA WFuH 2NK+ azQk VmTn",
+	"Dashboard": "",
+	"dashboard": "",
+	"PORT": 8080,
+	"currentMainPort": 8080,
+	"DeveloperMode": false,
+	"DisableCommands": [],
+	"DisableEvents": [],
+	"login": [
+		"fca-umaru-v1",
+		"fca-umaru-v2"
+	],
+	"botname": "Umaru",
+	"prefix": "/",
+	"nickname": "》 {prefix} 《 ❃ ➠ {botname} ",
+	"adminbot": [
+		"100052086120278"
+	],
+	"RankupMode": "canvas",
+	"WelcomeMode": "canvas",
+	"LeaveMode": "canvas",
+	"BanTemplate": "none",
+	"SqliteDB": true,
+	"PerformanceMode": false,
+	"LanguageAndTimeZone_Detector": true,
+	"Anonymous": false,
+	"console": true,
+	"JournalingMechanism": true,
+	"AppStateEncryption": true,
+	"ActiveStatus": true,
+	"EventInUsers": true,
+	"AppStatePath": "/appstate.txt",
+	"DatabasePath": "/data/data",
+	"kernel": [],
+	"PerformanceModeConfig": {
+		"ThreadLimit": 100,
+		"ThreadPerResponseLimit": 100,
+		"AutoLeaveInactiveGroupMode": false,
+		"AutoLeaveMode": false,
+		"resend": true,
+		"LanguageAndTimeZone_Detector": true,
+		"Scheduler": false,
+		"nsfw": false,
+		"UsersPhoto": false
+	},
+	"Owner": "John Lester",
+	"Age": 16,
+	"Gender": "Male",
+	"Facebook": "https://www.facebook.com/rootalocalhost.dev",
+	"cmd_not_found": "Command {{1}} not found\nUse {{2}} to display all commands is that {{3}} or not?",
+	"permission_1": "⚠️ You don't have permission to use \"{{1}}\". Only group admin can use this command.",
+	"permission_2": "⚠️ You don't have permission to use \"{{1}}\". Only system admin can use this command.",
+	"nsfw_msg": "⚠️ Your group is not allowed to use NSFW commands.",
+	"cooldown_msg": "Please wait {{1}}. {{2}}",
+	"Automated": {
+		"AutoReact": true,
+		"AutoLeaveMode": false,
+		"AutoLeaveInactiveGroupMode": false,
+		"AutoOffBot": false,
+		"AutoOffBotStartSleep": "01:00",
+		"AutoOffBotSendMessage": "Bye everyone. i need to sleep i'll be right back at 5:00AM 🥰",
+		"AutoOffBotEndSleep": "05:00",
+		"AutoGreet": false,
+		"AutoGreetWithSticker": false,
+		"AutoGreetSendPerHour": "2",
+		"HolidayAutoGreet": false,
+		"ChristmasCountdown": false,
+		"ChristmasCountdownMsg": "🎄 {{1}} days before christmas\n{{2}}",
+		"AcceptFriendRequest": false,
+		"AutoPending": false,
+		"PendingMsg": "{botname} Connected Successfully!\nUse {prefix}help for more info :>",
+		"AutoBioStatus": false,
+		"AutoBioStatusSetPerHour": "1",
+		"BioStatus": "Prefix: {prefix}\nmade by: https://fb.com/rootalocalhost.dev\n\n🟢 Active: {time}",
+		"AutoLeave": false
+	},
+	"FcaOptions": {
+		"forceLogin": true,
+		"listenEvents": true,
+		"logLevel": "silent",
+		"selfListen": false,
+		"autoMarkRead": true,
+		"userAgent": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 OPR/84.0.4316.21",
+		"autoReconnect": true
+	},
+	"Addons": {
+		"Welcome": "Hello, {name} Welcome to {threadname}. You are the {num}th member of our community; please enjoy! 🥳♥",
+		"Leave": {
+			"goodbye": "Goodbye {name}.\n\nReason: {reason}",
+			"left": "Left the group",
+			"remove": "Kicked by Administrator"
+		},
+		"Rankup": "{name} your keyboard hero level has reached level {level}",
+		"isBanned": {
+			"thread": "❎ Your thread is unable to use bot \n\nReason: {reason}",
+			"user": "❎ Your unable to use bot \n\nReason: {reason}"
+		},
+		"Scheduler": {
+			"Hello Greet every 1 Hour": {
+				"isEnable": false,
+				"schedule": "1 */01 * * *",
+				"messages": "Hello everyone have a nice day.",
+				"attachment": "None",
+				"value": "00-00 01:00",
+				"mode": "Interval"
+			},
+			"Good morning in 6:00AM": {
+				"isEnable": false,
+				"schedule": "1 06 * * *",
+				"messages": "Good morning everyone have a nice day",
+				"attachment": "None",
+				"value": "00-00 06:00",
+				"mode": "None"
+			}
+		}
+	}
+}
